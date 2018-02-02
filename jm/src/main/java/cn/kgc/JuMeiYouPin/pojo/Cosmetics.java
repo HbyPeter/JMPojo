@@ -20,6 +20,7 @@ public class Cosmetics {
 	public String getCosmetics_name() {
 		return Cosmetics_name;
 	}
+	
 	public void setCosmetics_name(String cosmetics_name) {
 		Cosmetics_name = cosmetics_name;
 	}
