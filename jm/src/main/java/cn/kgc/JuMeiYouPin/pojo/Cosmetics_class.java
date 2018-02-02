@@ -6,6 +6,7 @@ private String Cosmetics_class_name;//·ÖÀàÃû³Æ
 public Integer getCosmetics_class_id() {
 	return Cosmetics_class_id;
 }
+
 public void setCosmetics_class_id(Integer cosmetics_class_id) {
 	Cosmetics_class_id = cosmetics_class_id;
 }

@@ -12,6 +12,7 @@ public class Cosmetics {
 	public Integer getCosmetics_id() {
 		return Cosmetics_id;
 	}
+	
 	public void setCosmetics_id(Integer cosmetics_id) {
 		Cosmetics_id = cosmetics_id;
 	}
