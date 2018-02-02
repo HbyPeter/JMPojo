@@ -5,6 +5,7 @@ public class Brand {
   private String brand_name;//品牌名称
   private String brand_Type;//品牌类型
   
+  
 public Integer getBrand_id() {
 	return brand_id;
 }
