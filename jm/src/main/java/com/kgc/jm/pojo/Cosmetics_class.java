@@ -1,4 +1,4 @@
-package com.kgc.JuMeiYouPin.pojo;
+package com.kgc.jm.pojo;
 
 public class Cosmetics_class {
 private Integer Cosmetics_class_id;//∑÷¿‡id
