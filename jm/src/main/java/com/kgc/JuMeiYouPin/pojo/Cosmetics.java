@@ -1,4 +1,4 @@
-package cn.kgc.JuMeiYouPin.pojo;
+package com.kgc.JuMeiYouPin.pojo;
 //商品表
 public class Cosmetics {
 	private Integer Cosmetics_id;//化妆品id

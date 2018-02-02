@@ -1,4 +1,4 @@
-package cn.kgc.JuMeiYouPin.pojo;
+package com.kgc.JuMeiYouPin.pojo;
 
 public class Brand {
   private Integer brand_id;//Æ·ÅÆid
