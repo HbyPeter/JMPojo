@@ -5,6 +5,14 @@ public class Brand {
   private String brand_name;//品牌名称
   private String brand_Type;//品牌类型
   
+  private Cosmetics cosmetics;
+  
+public Cosmetics getCosmetics() {
+	return cosmetics;
+}
+public void setCosmetics(Cosmetics cosmetics) {
+	this.cosmetics = cosmetics;
+}
 public Integer getBrand_id() {
 	return brand_id;
 }
@@ -23,18 +31,21 @@ public String getBrand_Type() {
 public void setBrand_Type(String brand_Type) {
 	this.brand_Type = brand_Type;
 }
-public Brand(Integer brand_id, String brand_name, String brand_Type) {
+public Brand(Integer brand_id, String brand_name, String brand_Type, Cosmetics cosmetics) {
 	super();
 	this.brand_id = brand_id;
 	this.brand_name = brand_name;
 	this.brand_Type = brand_Type;
+	this.cosmetics = cosmetics;
 }
 public Brand() {
 	super();
 }
 @Override
 public String toString() {
-	return "Brand [brand_id=" + brand_id + ", brand_name=" + brand_name + ", brand_Type=" + brand_Type + "]";
+	return "Brand [brand_id=" + brand_id + ", brand_name=" + brand_name + ", brand_Type=" + brand_Type + ", cosmetics="
+			+ cosmetics + "]";
 }
+
   
 }
